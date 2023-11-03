@@ -1,0 +1,149 @@
+/* Apply general styles to the body and header */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Style the buttons */
+button {
+    background-color: #222;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Apply styles to the h1 and h2 */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 10px 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+/* Style the buttonContainer and buttons */
+#buttonContainer {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: #222;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* Style the row and column layout */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.column {
+    flex: 1;
+    padding: 15px;
+}
+
+/* Style the card content */
+.content {
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the card images */
+.content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the card info */
+.info h1 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.info p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* Style the buttons inside the card */
+.button {
+    background-color: #222;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 5px 0;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* Style the socials section */
+#socials {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style the newsletter form */
+form {
+    text-align: center;
+    margin: 0;
+}
+
+.formClass {
+    margin: 10px 0;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="checkbox"] {
+    margin: 10px 5px;
+}
+
+input[type="submit"] {
+    background-color: #222;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
