@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Oswald:wght@300&display=swap');
+
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.3;
     margin: 0;
     padding: 0;
 }
@@ -7,18 +15,37 @@ body {
 header {
     background-color: #222;
     color: white;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 20px 0;
 }
 
+.project-name {
+    font-size: 13rem;
+    background: linear-gradient(45deg, #005b96, #c9c9ff);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    color: transparent;
+}
+  
 nav {
     list-style-type: none;
-    padding: 0;
+    display: flex;
+    gap: 20px;
 }
-
+  
 nav li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 20px;;
+}  
+
+nav li button {
+    font-size: 1.2rem;
+    background-color: #222;
+    color: pink; 
+    border: none;
+    cursor: pointer;
 }
 
 button {
@@ -26,15 +53,23 @@ button {
     color: white;
     border: none;
     cursor: pointer;
+    text-align: center;
+}
+
+.button i.material-icons {
+    vertical-align: middle; 
+    margin-right: 5px; 
 }
 
 h1 {
+    font-family: 'Agbalumo';
     text-align: center;
     font-size: 2.5rem;
     margin: 10px 0;
 }
 
 h2 {
+    font-family: 'Oswald';
     text-align: center;
     font-size: 1.5rem;
     margin: 0;
@@ -46,12 +81,29 @@ h2 {
 }
 
 .btn {
-    background-color: #222;
+    background-color: #333;
     color: white;
     border: none;
     padding: 10px 20px;
     margin: 5px;
     cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #007BFF;
+}
+
+.btn-secondary {
+    background-color: #6C757D;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.btn:active {
+    background-color: #0056b3;
 }
 
 .row {
@@ -134,15 +186,28 @@ h2 {
     text-align: center;
     padding: 20px 0;
     margin-top: 3em;
-}
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
 form {
     text-align: center;
-    margin: 0;
+    margin: 0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
 
-.formClass {
-    margin: 10px 0;
+.formClass h2 {
+    color: pink;
+}
+
+.formClass p {
+    color: pink;
 }
 
 input[type="text"] {
@@ -150,6 +215,7 @@ input[type="text"] {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    margin: 0.5em;
 }
 
 input[type="checkbox"] {
@@ -163,6 +229,24 @@ input[type="submit"] {
     padding: 10px 20px;
     cursor: pointer;
 }
+
+.submit {
+    font-size: 15px;
+    background-color: pink;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px; 
+    margin-top: 0.5em;
+    display: flex;
+    align-items: center;
+}
+
+.submit .material-icons {
+    margin-left: 5px; 
+}
+
 
 @media (max-width: 768px) {
     h1 {
