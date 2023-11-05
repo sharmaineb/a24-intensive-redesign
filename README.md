@@ -5,9 +5,7 @@
 A24 is a project that showcases a selection of films and television shows produced by A24 Films. It provides information about these works, including trailers, cast, and other details. This is a redesign of a project I worked on over a year ago and was the first intensive project I did during my time at ACS.
 
 #### Screenshots of Previous Design
-![Landing Page](images/landing-previous.png)
-
-
+<img src="images/landing-previous.png" alt="Landing Page" width="200">
 
 ## Table of Contents
 
