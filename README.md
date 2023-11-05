@@ -1,10 +1,10 @@
-# A24: What Should I Watch?
+# a24: What Should I Watch?
 
 ### a24-intensive-redesign
 
 [Link To Redesigned Site](https://sharmaineb.github.io/a24-intensive-redesign/)
 
-A24 is a project that showcases a selection of films and television shows produced by A24 Films. It provides information about these works, including trailers, cast, and other details. This is a redesign of a project I worked on over a year ago and was the first intensive project I did during my time at ACS.
+a24 appreciation is a project that showcases a selection of films and television shows produced by a24 Films. It provides information about these works, including trailers, cast, and other details. This is a redesign of a project I worked on over a year ago and was the first intensive project I did during my time at ACS.
 
 #### Screenshots of Previous Design
 <div>
@@ -27,11 +27,11 @@ A24 is a project that showcases a selection of films and television shows produc
 
 ## Introduction
 
-This web application is designed to help users explore A24 Films' collection of movies and TV shows. A24 is known for its diverse range of critically acclaimed films and television series, and this project brings all the information you need in one place.
+This web application is designed to help users explore A24 Films' collection of movies and TV shows. a24 is known for its diverse range of critically acclaimed films and television series, and this project brings all the information you need in one place.
 
 ## Features
 
-- Browse A24 Films' collection by categories: Films, Television, and Upcoming.
+- Browse a24 Films' collection by categories: Films, Television, and Upcoming.
 - View details of each work, including the title, director, cast, and a link to watch the trailer.
 - Option to add your favorite films and shows to your list.
 - Sign up for a newsletter to receive weekly updates.
