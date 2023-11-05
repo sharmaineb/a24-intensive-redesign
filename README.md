@@ -2,6 +2,8 @@
 
 ### a24-intensive-redesign
 
+[Link To Redesigned Site](https://sharmaineb.github.io/a24-intensive-redesign/)
+
 A24 is a project that showcases a selection of films and television shows produced by A24 Films. It provides information about these works, including trailers, cast, and other details. This is a redesign of a project I worked on over a year ago and was the first intensive project I did during my time at ACS.
 
 #### Screenshots of Previous Design
@@ -13,10 +15,6 @@ A24 is a project that showcases a selection of films and television shows produc
     <img src="images/previous2.png" alt="Details" width="300">
     <img src="images/previous3.png" alt="Footer" width="300">
 </div>
-
-### Redesigned 
-
-[Link To Redesigned Site](https://sharmaineb.github.io/a24-intensive-redesign/)
 
 ## Table of Contents
 
