@@ -6,6 +6,9 @@ A24 is a project that showcases a selection of films and television shows produc
 
 #### Screenshots of Previous Design
 <img src="images/landing-previous.png" alt="Landing Page" width="300">
+<img src="images/previous.png" alt="Content" width="300">
+<img src="images/previous2.png" alt="Details" width="300">
+<img src="images/previous3.png" alt="Footer" width="300">
 
 ## Table of Contents
 
