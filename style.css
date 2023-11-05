@@ -73,6 +73,7 @@ button {
     text-shadow: 2px 2px 0 pink;
 }
 
+
 h2 {
     font-family: 'Oswald';
     text-align: center;
@@ -161,7 +162,7 @@ h2 {
     text-align: center;
     padding: 20px;
     background: linear-gradient(45deg, #ddd, #f1f1f1); 
-    border: 1px solid #ddd;
+    border: 1px solid #f1f1f1;
     border-radius: 5px;
     max-height: 400px;
     overflow: hidden;
