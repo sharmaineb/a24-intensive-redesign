@@ -14,6 +14,8 @@ A24 is a project that showcases a selection of films and television shows produc
     <img src="images/previous3.png" alt="Footer" width="300">
 </div>
 
+[Link To Redesigned Site](https://sharmaineb.github.io/a24-intensive-redesign/)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
