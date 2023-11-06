@@ -199,7 +199,7 @@ h2 {
 }
 
 #socials {
-    background-color: #222;
+    background-color: white;
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -208,7 +208,15 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+    background-image: url('https://t3.ftcdn.net/jpg/01/41/48/32/240_F_141483280_8ileRmWFJEu6WvcuIiEgMBKNPeQH1Rh0.jpg'), 
+                      url('https://t3.ftcdn.net/jpg/01/18/08/90/240_F_118089004_U1nszm4efOnH2OBHsQUxGZlLE9QpUYep.jpg');
+    background-size: 300px, auto, auto;
+    background-repeat: no-repeat;
+    background-position: left 10px top 10px, right 3px bottom 10px, center;
+    /* background-attachment: fixed, fixed, fixed; */
+    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)); */
+}
+
   
 form {
     text-align: center;
@@ -222,10 +230,12 @@ form {
 
 .formClass h2 {
     color: pink;
+    text-shadow: 2px 2px 0 #000;
 }
 
 .formClass p {
     color: pink;
+    text-shadow: 1px 1px 0 #000;
 }
 
 input[type="text"] {
