@@ -219,6 +219,7 @@ h2 {
 
   
 form {
+    color: black;
     text-align: center;
     margin: 0.5;
     display: flex;
